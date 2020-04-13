@@ -52,8 +52,9 @@ h2 {
 
 
 #main-page {
-    width: 60%;
+    width: 70%;
     margin: 7% auto;
+    background-color: #efefef;
 }
 
 p {
