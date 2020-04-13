@@ -29,3 +29,34 @@ table {
     background-color: white;
     color: #04080f;
 }
+
+
+
+#title {
+    margin: 10% 0 0 0;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center; 
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    color: #91c2ff;
+    font-weight: 300;
+}
+
+
+
+#main-page {
+    width: 60%;
+    margin: 7% auto;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
