@@ -1,5 +1,5 @@
 .card {
-    width: 400px;
+    width: 300px;
     background-color: white;
     color: black;
     text-align: justify;
@@ -46,4 +46,17 @@
 
 .card-button:hover {
     background-color: #fc5a4f;
+}
+
+.card-tag {
+    display: inline;
+    background-color: #efefef;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.card-tag-text {
+    font-size: 12px;
+    font-weight: 400;
 }
