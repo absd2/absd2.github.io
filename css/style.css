@@ -1,11 +1,48 @@
+/* ------------------------- */
+/* GENERAL STYLES */
+/* ------------------------- */
 body {
     font-family: 'Inria Sans', sans-serif;
     background-color: #04080f;
     color: white;
+    margin: 0;
+}
+
+#main-page {
+    width: 70%;
+    margin: 7% auto;
+}
+
+.panel {
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    width: 70%;
+    margin: 20px auto;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.panel-title {
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    background-color: #f32d1f;
+    font-size: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: block;
+}
+
+.lighter {
+    color: #474745;
 }
 
 
 
+/* ------------------------- */
+/* NAVBAR */
+/* ------------------------- */
 #navbar {
     width: 100%;
     text-align: center;
@@ -30,6 +67,9 @@ body {
 
 
 
+/* ------------------------- */
+/* TITLE */
+/* ------------------------- */
 #title-area {
     margin: 10% 0 0 0;
 }
@@ -50,44 +90,47 @@ body {
 
 
 
-#main-page {
-    width: 70%;
-    margin: 7% auto;
-}
-
-#skills-grid {
-    background-color: white;
-    text-align: center;
-    border-radius: 15px;
-    width: 70%;
-    margin: 0 auto;
-}
-
-#skills-grid .skills-grid-title {
-    text-align: center;
-    color: white;
-    padding: 10px 20px;
-    background-color: #f32d1f;
-    font-size: 30px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    display: block;
-}
-
+/* ------------------------- */
+/* SKILLS SECTION */
+/* ------------------------- */
 .skill-item {
     display: inline-block;
     padding: 5px;
     margin: 10px 40px 20px 40px;
 }
 
-.skill-item .skills-item-image {
-    height: 120px;
+.skill-item-image {
+    height: 100px;
+    transition: height 0.5s;
 }
 
-.skill-item .skills-item-title {
+.skill-item-image:hover {
+    height: 105px;
+}
+
+.skill-item-title {
     text-align: center;
     margin: 0 auto;
     color: black;
     font-size: 24px;
     font-weight: 400;
+}
+
+
+
+/* ------------------------- */
+/* EDUCATION SECTION */
+/* ------------------------- */
+#education-image {
+    height: 70px;
+    display: inline;
+    transition: height 0.5s;
+}
+
+#education-image:hover {
+    height: 75px;
+}
+
+.education-detail {
+    margin: 5px auto 10px auto;
 }
