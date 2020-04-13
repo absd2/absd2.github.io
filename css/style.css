@@ -63,7 +63,7 @@ body {
     margin: 0 auto;
 }
 
-#skills-grid h1 {
+#skills-grid .skills-grid-title {
     text-align: center;
     color: white;
     padding: 10px 20px;
@@ -77,11 +77,11 @@ body {
     margin: 20px 40px;
 }
 
-.skill-item img {
+.skill-item .skills-item-image {
     height: 120px;
 }
 
-.skill-item h2 {
+.skill-item .skills-item-title {
     text-align: center;
     margin: 0 auto;
     color: black;
