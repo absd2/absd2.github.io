@@ -68,13 +68,15 @@ body {
     color: white;
     padding: 10px 20px;
     background-color: #f32d1f;
-    display: inline-block;
+    font-size: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .skill-item {
     display: inline-block;
     padding: 5px;
-    margin: 20px 40px;
+    margin: 10px 40px 20px 40px;
 }
 
 .skill-item .skills-item-image {
@@ -85,4 +87,6 @@ body {
     text-align: center;
     margin: 0 auto;
     color: black;
+    font-size: 24px;
+    font-weight: 400;
 }
