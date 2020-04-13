@@ -71,6 +71,7 @@ body {
     font-size: 30px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    display: block;
 }
 
 .skill-item {
