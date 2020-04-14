@@ -18,7 +18,7 @@ body {
     text-align: center;
     border-radius: 15px;
     width: 70%;
-    margin: 20px auto;
+    margin: 100px auto;
     color: black;
     padding-bottom: 15px;
 }
@@ -26,9 +26,9 @@ body {
 .panel-title {
     text-align: center;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     background-color: #f32d1f;
-    font-size: 30px;
+    font-size: 26px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     display: block;
@@ -36,6 +36,7 @@ body {
 
 .lighter {
     color: #474745;
+    font-size: 16px;
 }
 
 
@@ -101,11 +102,6 @@ body {
 
 .skill-item-image {
     height: 100px;
-    transition: height 0.5s;
-}
-
-.skill-item-image:hover {
-    height: 105px;
 }
 
 .skill-item-title {
@@ -114,6 +110,29 @@ body {
     color: black;
     font-size: 24px;
     font-weight: 400;
+}
+
+
+
+/* ------------------------- */
+/* COURSES SECTION */
+/* ------------------------- */
+table {
+    text-align: justify;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+}
+
+td {
+    width: 50%;
+    vertical-align: top;
+}
+
+#table-col2 {
+    padding-left: 55px;
 }
 
 
@@ -133,4 +152,13 @@ body {
 
 .education-detail {
     margin: 5px auto 10px auto;
+    font-size: 18px;
+}
+
+h4 {
+    color: #f32d1f;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 0 10px 25px;
 }
