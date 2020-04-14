@@ -5,7 +5,6 @@ body {
     font-family: 'Inria Sans', sans-serif;
     background-color: #04080f;
     color: white;
-    margin: 0;
 }
 
 #main-page {
@@ -53,7 +52,7 @@ body {
     width: 100%;
     text-align: center;
     padding-top: 20px;
-    position: absolute;
+    position: static;
     top: 0px;
     left: 0px;
 }
@@ -154,4 +153,34 @@ body {
 .education-detail {
     margin: 5px auto 10px auto;
     font-size: 18px;
+}
+
+
+
+/* ------------------------- */
+/* DOWNLOAD RESUME SECTION */
+/* ------------------------- */
+#download-area {
+    text-align: center;
+}
+
+#download-image {
+    height: 40px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#download-text {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+p a {
+    text-decoration: none;
+    color: #f32d1f;
 }
