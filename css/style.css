@@ -136,13 +136,9 @@ body {
     vertical-align: top;
 }
 
-#courses-highlighted-text {
-    color: #f32d1f;
-    font-weight: 700;
-    text-align: justify;
-    margin-left: 40px;
+#courses-right-column {
+    padding-left: 40px;
 }
-
 
 
 /* ------------------------- */
