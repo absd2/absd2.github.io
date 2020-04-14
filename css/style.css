@@ -39,6 +39,11 @@ body {
     font-size: 16px;
 }
 
+.hightlight {
+    color: #f32d1f;
+    font-weight: 700;
+}
+
 
 
 /* ------------------------- */
@@ -117,22 +122,25 @@ body {
 /* ------------------------- */
 /* COURSES SECTION */
 /* ------------------------- */
-table {
+#courses-table {
     text-align: justify;
     margin: 0 auto;
 }
 
-ul {
+.courses-list {
     margin: 0;
 }
 
-td {
+.courses-column {
     width: 50%;
     vertical-align: top;
 }
 
-#table-col2 {
-    padding-left: 55px;
+#courses-highlighted-text {
+    color: #f32d1f;
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 40px;
 }
 
 
@@ -153,12 +161,4 @@ td {
 .education-detail {
     margin: 5px auto 10px auto;
     font-size: 18px;
-}
-
-h4 {
-    color: #f32d1f;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: justify;
-    margin: 0 0 10px 25px;
 }
