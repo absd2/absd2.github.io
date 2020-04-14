@@ -125,6 +125,8 @@ body {
 #courses-table {
     text-align: left;
     margin: 0 auto;
+    width: 95%;
+    border: 1px solid red;
 }
 
 .courses-list {
@@ -133,6 +135,7 @@ body {
 
 .courses-column {
     width: 50%;
+    border: 1px solid blue;
     vertical-align: top;
 }
 
