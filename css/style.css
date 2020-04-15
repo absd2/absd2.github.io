@@ -1,6 +1,24 @@
 /* ------------------------- */
 /* GENERAL STYLES */
 /* ------------------------- */
+@font-face {
+    font-family: 'Inria Sans';
+    src: url("../fonts/InriaSans-Light.woff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Inria Sans';
+    src: url("../fonts/InriaSans-Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inria Sans';
+    src: url("../fonts/InriaSans-Bold.woff");
+    font-weight: 700;
+}
+
 body {
     font-family: 'Inria Sans', sans-serif;
     background-color: #04080f;
