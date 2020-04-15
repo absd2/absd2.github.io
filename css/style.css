@@ -10,6 +10,7 @@ body {
 #main-page {
     width: 70%;
     margin: 7% auto;
+    min-width: 510px;
 }
 
 .panel {
@@ -55,6 +56,7 @@ body {
     position: static;
     top: 0px;
     left: 0px;
+    min-width: 725px;
 }
 
 .navbar-item {
@@ -77,6 +79,7 @@ body {
 /* ------------------------- */
 #title-area {
     margin: 10% 0 0 0;
+    min-width: 725px;
 }
 
 #title-area h1 {
