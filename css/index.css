@@ -83,7 +83,7 @@ a {
     color: white;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     /* FOR LARGER SCREENS */
     body { font-size: 40px; }
     #main-page p { font-size: 24px; margin: 10px 10%; }
