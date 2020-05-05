@@ -10,12 +10,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    background: url("../img/wallpaper3.jpg");
+    background: url("../img/wallpaper.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 
 #upper-detail {
@@ -27,34 +26,35 @@ body {
 
 #main-page {
     text-align: center;
-    margin: 60px 10%;
+    margin: 40px 10%;
 }
 
 #profile-image {
     width: 15%;
-    max-width: 180px;
-    min-width: 100px;
+    max-width: 400px;
+    min-width: 120px;
 }
 
 #main-page h1 {
     font-weight: 400;
     margin: 25px 0 0 0;
+    font-size: 40px;
 }
 
 #main-page p {
     margin: 0 10%;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #main-page p span {
-    color: #333333;
-    font-size: 16px;
+    color: #5a5a5a;
+    font-size: 18px;
 }
 
 
 
 #flex-area {
-    margin: 50px 10%;
+    margin: 30px 10%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -70,6 +70,7 @@ body {
     padding: 10px 25px;
     border-radius: 10px;
     font-weight: 600;
+    font-size: 22px;
     transition: background-color 0.3s;
 }
 
@@ -80,4 +81,16 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    /* FOR LARGER SCREENS */
+    body { font-size: 40px; }
+    #main-page p { font-size: 24px; margin: 10px 10%; }
+    #main-page p span { font-size: 20px; }
+    #main-page h1 { font-size: 64px; }
+    #profile-image { width: 15%; max-width: 240px; min-width: 130px; }
+
+    .flex-item { font-size: 22px; }
+    #flex-area { margin: 20px 10%; }
 }
