@@ -1,3 +1,5 @@
+/* Medium-sized mobile devices first */
+
 html {
     width: 100%;
     height: 100%;
@@ -5,9 +7,7 @@ html {
 
 body {
     display: inline-block;
-    overflow: hidden;
     width: 100%;
-    height: 100%;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -28,7 +28,7 @@ body {
 
 #main-page {
     text-align: center;
-    margin: 40px 10% 0 10%;
+    margin: 15px 10% 0 10%;
 }
 
 #profile-image {
@@ -73,8 +73,8 @@ body {
     border-radius: 10px;
     font-weight: 600;
     font-size: 22px;
-    transition: background-color 0.3s;
-}
+    transition: background-color 0.2s;
+}   
 
 .flex-item:hover {
     background-color: #185486;
@@ -85,7 +85,8 @@ a {
     color: white;
 }
 
-@media (min-width: 1px) and (max-width: 380px) {
+@media (min-width: 1px) and (max-width: 425px) {
+    /* Small sized-devices */
     #main-page p {font-size: 18px; margin: 0;}
     #main-page p span {font-size: 14px;}
     #main-page h1 {font-size: 28px; margin: 10px 0 0 0;}
@@ -94,15 +95,16 @@ a {
     #main-page {margin: 15px;}
 
     #flex-area { margin: 10px 0 0 0; }
-    .flex-item { font-size: 16px; }
+    .flex-item { font-size: 16px; margin: 5px; }
 }
 
 @media (min-width: 768px) {
-    /* FOR LARGER SCREENS */
+    /* Larger screens */
     body { font-size: 40px; }
     #main-page p { font-size: 24px; margin: 10px 10%; }
     #main-page p span { font-size: 20px; }
     #main-page h1 { font-size: 64px; }
+    #main-page {margin-top: 50px;}
     #profile-image { width: 15%; max-width: 240px; min-width: 130px; }
 
     .flex-item { font-size: 22px; }
